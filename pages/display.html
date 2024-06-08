@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TEST 3</title>
+    <link rel="stylesheet" href="../css/style_1.css">
+</head>
+<body>
+<div>
+    <h1>TEST 3 с использванием display</h1>
+    <div class="div1">
+        <p> все элементы LI при использовании display line становятся горизонтально в одну линию,как предложение (но
+            сработало только тогда,когда указала прямо к самому ЛИ</p>
+        <ul style="display: inline">
+            <li style="display: inline"><span style="color: red">КАЖДЫЙ</span></li>
+            <li style="display: inline"><span style="color: orange">ОХОТНИК</span></li>
+            <li style="display: inline"><span style="color: yellow"> ЖЕЛАЕТ</span></li>
+            <li style="display: inline"><span style="color: green">ЗНАТЬ</span></li>
+            <li style="display: inline"><span style="color: lightblue">ГДЕ</span></li>
+            <li style="display: inline"><span style="color: blue">СИДИТ</span></li>
+            <li style="display: inline"><span style="color: blueviolet">ФАЗАН</span></li>
+        </ul>
+    </div>
+    <p></p>
+
+    <div class="div2">
+        <p> все элементы LI при использовании display flex становятся вертикально, но перемещаются по странице(стали по
+            правому краю в конце текста Р)</p>
+        <ul>
+            <li style="display: flex"><span style="color: red">КАЖДЫЙ</span></li>
+            <li style="display: flex"><span style="color: orange">ОХОТНИК</span></li>
+            <li style="display: flex"><span style="color: yellow"> ЖЕЛАЕТ</span></li>
+            <li style="display: flex"><span style="color: green">ЗНАТЬ</span></li>
+            <li style="display: flex"><span style="color: lightblue">ГДЕ</span></li>
+            <li style="display: flex"><span style="color: blue">СИДИТ</span></li>
+            <li style="display: flex"><span style="color: blueviolet">ФАЗАН</span></li>
+        </ul>
+    </div>
+
+
+    <div class="div3">
+        <p> все элементы LI при использовании display block становятся вертикально один под одним</p>
+        <ul>
+            <li><span style="color: red">КАЖДЫЙ</span></li>
+            <li><span style="color: orange">ОХОТНИК</span></li>
+            <li><span style="color: yellow"> ЖЕЛАЕТ</span></li>
+            <li><span style="color: green">ЗНАТЬ</span></li>
+            <li><span style="color: lightblue">ГДЕ</span></li>
+            <li><span style="color: blue">СИДИТ</span></li>
+            <li><span style="color: blueviolet">ФАЗАН</span></li>
+        </ul>
+    </div>
+
+</div>
+</body>
+</html>

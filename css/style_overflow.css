@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 25px;
+    color: blue;
+    text-align: center;
+}

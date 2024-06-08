@@ -1,0 +1,22 @@
+
+div {
+    box-sizing: border-box;
+    margin: 70px;
+    padding: 0px;
+}
+
+.style {
+    font-size: 30px
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    border: 7px solid greenyellow;
+    margin: 20px;
+}
+

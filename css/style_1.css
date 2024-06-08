@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+  
+}
+
+.div1 {
+    display: inline;
+    width: 100%;
+}
+
+.div2 {
+    display: flex;
+}
+
+.div3 {
+    display: block;
+}
+
+li {
+    border: 3px solid purple;
+    max-width: 90px;
+    padding: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
